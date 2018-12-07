@@ -1,0 +1,233 @@
+body {
+    padding:0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.navbaR {height: 3rem;
+    width: 100%;
+
+}
+.navbaR ul {width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0rem 0rem;
+    padding: 0px 0px;
+    background: rgba(29, 17, 0, 0.664);
+
+
+
+
+
+}
+
+.navbaR ul li {
+    width: auto;
+    padding-top: .7rem;
+}
+
+.navbaR a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbaR a:hover {
+    color: rgba(179, 179, 179, 0.363);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.box__design button {
+    background:grey;
+    color:grey;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 3%
+  }
+  button:hover{
+    background: darkgray;
+    color:rgba(29, 17, 0, 0.664);
+
+
+  }
+
+  .box__design button a:hover { color: rgba(29, 17, 0, 0.664);
+    text-decoration: none
+
+  }
+  .box__design button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgba(29, 17, 0, 0.664);
+    transition:400ms ease all;
+  }
+  .box__design button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .box__design button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .box__design button a {
+      text-decoration: none;
+      color: white
+  }
+
+
+
+
+
+.containter__one {
+
+    height: 60vh;
+    width: 100%;
+    display: relative;
+
+
+}
+
+
+.background{
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.img__one {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("images/business2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+
+.box__design {position: relative;
+    width: 60%;
+
+}
+
+.box__one {background-color:rgba(10, 89, 92, 0.486);
+    width: 100%;
+    height:100%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 37%, 44% 37%, 44% 100%, 0 100%, 0 0);
+    position: absolute;
+    z-index: -1;
+
+}
+
+.box__two {background-color: rgba(167, 161, 161, 0.705);
+    clip-path: polygon(50% 30%, 100% 30%, 100% 100%, 44% 100%, 0,0);
+    width:56%;
+    height: 64%;
+    position: absolute;
+    right: 0px;
+    top: 36%;
+    z-index: -1;
+
+   
+}
+
+
+
+
+.headCap {left: 8%;
+    top: 15%;
+    width: 22rem;
+    position: absolute;
+}
+
+.headCap h1 {
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+.container__two{
+    height: 80vh;
+    width:80%;
+    margin:0 auto;
+   
+
+
+}
+
+.container__two .media__links {display:flex;
+    flex-direction: row;
+    position: absolute;
+    width:25%;
+    justify-content: space-around;
+    background:rgba(167, 161, 161, 0.705)
+    
+}
+
+.container__two .media__links a {
+    color: black
+}
+.influencer__msg {width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container__two .caption {
+    height: 13rem;
+    width: 18rem;
+    position: relative;
+    right: 3rem;
+}
+
+.container__two .img__two {
+    height: 200px;
+    width: 200px;
+    background: black;
+    position: relative;
+    left: 3rem;
+}
+
+
+.background__box {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: grey;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    z-index: -1;
+
+}
