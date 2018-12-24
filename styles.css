@@ -245,7 +245,8 @@ h3 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0rem
+    padding: 2rem 0rem;
+    animation: fadeIn 2s forwards;
 
 }
 
