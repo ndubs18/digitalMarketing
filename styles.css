@@ -63,7 +63,7 @@ h3 {
     border:none;
     position:relative;
     height:60px;
-    width: auto;
+    width: 12rem;
     font-size:1.6em;
     padding:0 .5rem;
     cursor:pointer;
@@ -141,10 +141,9 @@ h3 {
     width: 35%;
     height: 100%;
     background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("images/business2.jpg");
-    background-size: 100%;
-    max-width: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    max-height: 100%;
+
     animation: fadeIn 2s forwards;
 }
 
@@ -162,8 +161,6 @@ h3 {
     clip-path: polygon(50% 0%, 100% 0, 100% 50%, 50% 50%, 50% 100%, 0 100%, 0 0);
     position: absolute;
     z-index: -1;
-
-
 
 }
 
@@ -254,7 +251,7 @@ h3 {
     height: 20rem;
     width: 18rem;
     position: relative;
-    padding-top: 1.5rem;
+    padding: 1.25rem;
     margin-right:10rem;
  
     
@@ -426,7 +423,7 @@ h3 {
       width:30rem;
       background: rgb(235, 235, 235);
       text-align:center;
-      padding-top: 6rem;
+      padding: 6rem 1rem 0rem;
       box-shadow: 2px 2px 4px rgb(143, 143, 143)
     
   }
@@ -444,6 +441,7 @@ h3 {
     outline:none;
     border-radius: 3%;
     margin: .5rem;
+    z-index: 0;
   }
 
   .contactUs button a:hover {
@@ -465,6 +463,80 @@ h3 {
 footer p {color:white;
     margin: 0 0;
 }
+
+
+/* Modal */
+
+.contactUsModal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .75);
+    padding: 3rem 3rem 0rem;
+    display: none;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: modalOpen 1s;
+}
+
+@keyframes modalOpen {
+    from {opacity: 0};
+    to {opacity: 1};
+}
+
+.modal__content {
+    width: 50%;
+    height:auto;
+    align-items: center;
+    margin: 0 auto;
+    background: white;
+    color: black;
+    padding: .5rem 1rem 2.75rem;
+    z-index: 3;
+}
+
+.closeBtn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 20px;
+    font-size: 30px;
+    display: block;
+    color: grey;
+}
+
+.closeBtn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.contactUsForm { display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+
+}
+
+.contactUsForm #message {
+    width: 100%
+}
+
+.contactUsForm h1 {
+    margin: .25rem auto;
+}
+
+
+.contactUsForm input {
+    width: 100%
+}
+
+/* Modal */
 
 /* for laptop */
 /* for laptop */
@@ -504,11 +576,15 @@ footer p {color:white;
 }
 
 
+
+
+
   
 
 @media only screen and (max-width: 1111px){
-    .container__four__content{
-    flex-direction: column }
+    .container__four__content {
+    flex-direction: column 
+    }
 
     .container__four__content img {
         left: 0;
@@ -546,6 +622,13 @@ footer p {color:white;
         margin: 0 2rem;
     }
 
+    .contactUs p {
+        margin-bottom: 2rem;
+    }
+
+    .img__one {
+        background-size: 100% 75%;
+    }
     
 
 
@@ -579,7 +662,9 @@ footer p {color:white;
         width: 10rem;
         margin: 0 auto;
     }
-    .container__two .caption { margin: 2rem}
+    .container__two .caption { margin: .5rem auto;
+        height: 18.5rem;
+    }
 
 
     .container__three {
@@ -605,7 +690,10 @@ footer p {color:white;
     .influencer__msg{
         position: relative;
         height: auto;
+        padding: .5rem 0rem 2rem;
     }
+
+
 
     .background__box__one {
         height: 150px;
@@ -621,8 +709,9 @@ footer p {color:white;
     
     }
 
-    .contactUs {
-        width: 100%
+    .container__four__content .contactUs {
+        width: 100%;
+        padding: 1.5rem .5rem 1.5rem;
     }
 
     .container__four__content img {
@@ -634,6 +723,22 @@ footer p {color:white;
     }
 
     .caption{ text-align: center }
+
+    .navbaR ul li {
+        margin: 0 1.25rem;
+    }
+
+    button {
+        height: 50px;
+        width: 10rem;
+    }
+
+    .contactUs button {
+        margin-top: 1.25rem;
+    }
+    .contactUs p {
+        margin-bottom: 0px;
+    }
 
 }
 

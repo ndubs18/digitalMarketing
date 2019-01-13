@@ -40,7 +40,7 @@
             <h1>An ROI driven full service digital margeting agency.</h1>
             <p>Designed to serve your business</p>
 
-            <button><a href="">Contact Us</a></button>
+            <button class = "contact_us"><a href="#contactUsModal">Contact Us</a></button>
 
         </div>
 
@@ -120,16 +120,40 @@
     </div>
 </div>
 
+
 <div class="container__four">
+
+
+
+    
     <div class="container__four__content">
 
-        <img src="images/contact.jpg" alt="">
-        <div class="contactUs">
-            <h2>Let us help you with your business.</h2>
-            <p>Reach out and we'll be here to chat about how.</p>
-            <button><a href="">Contact Us</a></button>
-        </div>
-    </div>    
+            <img src="images/contact.jpg" alt="">
+            <div class="contactUs">
+                <h2>Let us help you with your business.</h2>
+                <p>Reach out and we'll be here to chat about how.</p>
+                <button class = "contact_us"><a href="#contactUsModal">Contact Us</a></button>
+            </div>
+        </div>    
+    </div>
+
+
+    <div class="contactUsModal" id = "contacUsModal" data-backdrop = "true">
+            <div class="modal__content">
+                <span class="closeBtn" id="btnWork">×</span>
+                <form action="" class = "contactUsForm">
+                <h1>Contact Us</h1>
+                <label for="">Name<br><input type="text"></label>
+                <label for="">Email Address <br><input type="text"></label>
+                <label for="">Message <br><textarea name="message" id="message" style="width: 100%"></textarea></label>
+                <label for="">Phone(optional)<br><input type="text"></label>
+                <input type="submit" value = "Submit">
+                
+                </form>
+        
+            </div>
+    </div>
+
 </div>
 
 <footer>
