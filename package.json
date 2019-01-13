@@ -1,0 +1,22 @@
+{
+  "name": "digitalmarketing",
+  "version": "1.0.0",
+  "description": "Web Agency website",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndubs18/digitalMarketing.git"
+  },
+  "author": "Nick Winkler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndubs18/digitalMarketing/issues"
+  },
+  "homepage": "https://github.com/ndubs18/digitalMarketing#readme",
+  "dependencies": {
+    "nodemailer": "^5.1.1"
+  }
+}
