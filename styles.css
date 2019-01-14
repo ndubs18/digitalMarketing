@@ -183,13 +183,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     z-index: -2;
-
-
-   
 }
-
-
-
 
 .headCap {
     left: 5%;
@@ -198,7 +192,6 @@ h3 {
     position: absolute;
     animation: fadeIn 2s forwards;
 }
-
 
 
 .headCap h1 {
@@ -212,8 +205,6 @@ h3 {
     width:100%;
     margin:0 auto;
    
-
-
 }
 
 .container__two .media__links {display:flex;
@@ -381,10 +372,13 @@ h3 {
       height: 400px;
       width: 300px;
       background: white;
-      margin: 1.5rem;
-      box-shadow: 1px 1px darkgray
+      margin: 3rem 2rem;
+      box-shadow: 1px 1px darkgray;
+      
+  }
 
-
+  .container__three .cards:hover {
+      transform: scale(1.025)
   }
 
   .container__three .cards img {
@@ -421,8 +415,9 @@ h3 {
 
 }
 
-.container__four__content img{ height: 325px;
-    width: 425px;
+.container__four__content img{ 
+    height: 425px;
+    width: 550px;
     position: relative;
     right: -4rem;
     z-index: -1
@@ -432,8 +427,8 @@ h3 {
 
   .contactUs {
       float: right;
-      height: 18rem;
-      width:30rem;
+      height: 22rem;
+      width:40rem;
       background: rgb(235, 235, 235);
       text-align:center;
       padding: 6rem 1rem 0rem;
@@ -834,3 +829,4 @@ footer p {color:white;
 
     }
 }
+
