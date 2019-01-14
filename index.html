@@ -16,17 +16,17 @@
 </head>
 
 <body>
-<nav class ="navbaR">
+<nav class ="navbaR" id = "navBar">
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#container__two">About</a></li>
+        <li><a href="#container__three">Services</a></li>
+        <li><a href="#container__four" id="contactUsLink">Contact</a></li>
     </ul>
         
 </nav>
 
-<div class="containter__one">
+<div class="container__one" id = "top">
 
     <div class="background">
         <div class="img__one">
@@ -60,7 +60,7 @@
 </div>
 
 
-<div class="container__two">
+<div class="container__two" id = "container__two">
     <div class="media__links">
         <p><a href="">Facebook</a></p>
         <p><a href="">Twitter</a></p>
@@ -84,7 +84,7 @@
     </div>
 </div>
 
-<div class="container__three">
+<div class="container__three" id = "container__three">
     <div class="cards">
         <img src="images/development.jpg" alt="">
         <div class="cards__text">
@@ -121,11 +121,8 @@
 </div>
 
 
-<div class="container__four">
+<div class="container__four" id = "container__four">
 
-
-
-    
     <div class="container__four__content">
 
             <img src="images/contact.jpg" alt="">
@@ -138,7 +135,7 @@
     </div>
 
 
-    <div class="contactUsModal" id = "contacUsModal" data-backdrop = "true">
+    <div class="contactUsModal" id = "contactUsModal" data-backdrop = "true">
             <div class="modal__content">
                 <span class="closeBtn" id="btnWork">×</span>
                 <form action="" class = "contactUsForm">
@@ -166,7 +163,7 @@
 
 
 
-<script src="index.js">
+<script src="scripts.js">
 
 </script>
 
