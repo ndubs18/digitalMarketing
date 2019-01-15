@@ -132,8 +132,6 @@ h3 {
     height: 65vh;
     width: 100%;
     display: relative;
-
-
 }
 
 
@@ -204,24 +202,20 @@ h3 {
     height: 40rem;
     width:100%;
     margin:0 auto;
-   
+    padding: 0 1rem 1.5rem;
 }
 
-.container__two .media__links {display:flex;
+.container__two .media__links {
+    display:flex;
     flex-direction: row;
     width:35%;
-    position: absolute;
     justify-content: space-around;
     background:rgba(0, 0, 0, 0.048);
     padding-top: 13px;
-
-
-  
 }
 
 .container__two .media__links a {
     color: black;
-
     animation: fadeIn 2s forwards;
   
 
@@ -255,7 +249,7 @@ h3 {
     height: 20rem;
     width: 18rem;
     position: relative;
-    padding: 1.25rem;
+    padding: 1rem;
     margin-right:10rem;
  
     
@@ -364,7 +358,9 @@ h3 {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: center
+      align-items: center;
+      padding: 3rem 0rem;
+      flex-shrink: 3;
  
   }
 
@@ -372,7 +368,7 @@ h3 {
       height: 400px;
       width: 300px;
       background: white;
-      margin: 3rem 2rem;
+      margin: 1rem 1.5rem;
       box-shadow: 1px 1px darkgray;
       
   }
@@ -398,8 +394,10 @@ h3 {
 
 
   .container__four {
-      height: 43rem;
+      height: 40rem;
       width: 100%;
+      padding: 1rem 1rem
+    
 
   }
 
@@ -668,7 +666,8 @@ footer p {color:white;
     .container__two .media__links {
     width: 100%;
     margin: 0 auto;
-    position: static}
+    }
+
     .headCap h1 {
         font-size: 30px;
         line-height: 2rem;
@@ -686,16 +685,18 @@ footer p {color:white;
         left:0;
         text-align: center;
         margin: 0 auto;
-        top: 6rem;
+        top: 6.75rem;
 
     }
     
     .container__two .caption h4{
-        width: 10rem;
+        width: 13rem;
         margin: 0 auto;
     }
-    .container__two .caption { margin: .5rem auto;
-        height: 18.5rem;
+    .container__two .caption { 
+        margin: .25rem auto;
+        height: 16rem;
+        width: auto
     }
 
 
@@ -704,10 +705,16 @@ footer p {color:white;
         height: auto;
     }
 
+    .container__three .cards {
+        height: 425px;
+        width: 250px;
+        
+    }
+
     .meet{
         font-size: 1rem;
         line-height: 1rem;
-        height: 2rem;
+        height: 2.75rem;
         padding: 0 .5rem
     }
 
@@ -726,26 +733,29 @@ footer p {color:white;
     }
 
     .background__box__one {
-        height: 150px;
-        width: 100px;
+        height: 200px;
+        width: 150px;
         transform: translateX(-.5rem) translateY(-.5rem);
         
     }
     
     .background__box__two {
-        height: 150px;
-        width: 100px;
+        height: 200px;
+        width: 150px;
 
     
     }
 
     .container__four__content .contactUs {
         width: 100%;
-        padding: 1.5rem .5rem 1.5rem;
+        height: auto;
+        padding: 1.5rem .75rem 1rem;
     }
 
     .container__four__content img {
-        max-width: 100%
+        max-width: 100%;
+        height: 250px;
+        width: 300px;
     }
 
     .influencer__msg {
@@ -754,8 +764,13 @@ footer p {color:white;
 
     .caption{ text-align: center }
 
+    .navbaR ul {
+        width: auto;
+    }
+
+
     .navbaR ul li {
-        margin: 0 1.25rem;
+        margin: 0 1rem;
     }
 
     button {
@@ -778,6 +793,9 @@ footer p {color:white;
 }
 
 @media only screen and (max-width: 400px) {
+    .navbar .sticky {
+        width: auto;
+    }
 
     .headCap{
         top: 2rem;
@@ -801,13 +819,14 @@ footer p {color:white;
 
 @media only screen and (max-width: 376px) and (max-height: 813px) {
     .headCap{
-        top: 5rem;
+        top: 7.75rem;
+        width: 14rem
     }
 }
 
 @media only screen and (max-width: 321px) and (max-height: 569px) {
     .headCap{
-        top: 2.5rem;
+        top: 4rem;
     }
 }
 
