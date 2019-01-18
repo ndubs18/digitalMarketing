@@ -729,6 +729,10 @@ footer p {color:white;
 
     }
 
+    .container__two .media__links a {
+        padding-left: .25px;
+    }
+
     .media__links i { margin: 0 2rem;
     
   
@@ -738,9 +742,7 @@ footer p {color:white;
     .media__links a{
         width: 33.3%;
         text-align: center;
-
-
-        
+  
     }
 
     .headCap h1 {
@@ -760,7 +762,7 @@ footer p {color:white;
         left:0;
         text-align: center;
         margin: 0 auto;
-        top: 6.75rem;
+        top: 6.25rem;
 
     }
     
@@ -839,14 +841,11 @@ footer p {color:white;
 
     .caption{ text-align: center }
 
-    .navbaR ul {
-        width: auto;
-    }
 
 
-    .navbaR ul li {
-        margin: 0 1rem;
-    }
+   .navbaR ul li {
+       margin: 0 1rem;
+   }
 
     button {
         height: 50px;
@@ -872,8 +871,12 @@ footer p {color:white;
         width: auto;
     }
 
+    .navbaR ul li {
+        margin: 0 .5rem;
+    }
+
     .headCap{
-        top: 2rem;
+        top: 5rem;
     }
     .contactUsModal{
         height: 100%;
@@ -894,7 +897,7 @@ footer p {color:white;
 
 @media only screen and (max-width: 376px) and (max-height: 813px) {
     .headCap{
-        top: 7.75rem;
+        top: 6.75rem;
         width: 14rem
     }
 }
