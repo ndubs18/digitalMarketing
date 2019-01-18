@@ -593,6 +593,12 @@ footer p {color:white;
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
+    .container__three .cards {
+        height: 385px;
+        width: 275px;
+        
+    }
+
     .headCap h1 {
         font-size: 2.2rem
     }
@@ -619,6 +625,15 @@ footer p {color:white;
 
     .container__four__content .contactUs {
     padding-top: 4rem;
+    height: 20rem;
+    width: 40rem;
+    }
+
+    .container__four__content img {
+        height: 375px;
+        width: 480px;
+     
+
     }
     
 }
