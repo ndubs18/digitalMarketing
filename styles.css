@@ -226,7 +226,8 @@ h3 {
 
 .container__two .media__links a {
     color: #bd8c7d;
-    animation: fadeIn 2s forwards;    
+    animation: fadeIn 2s forwards; 
+    padding-left: 25px;   
 }
 
 .media__links a:hover {
@@ -714,12 +715,16 @@ footer p {color:white;
     }
 
     .media__links i { margin: 0 2rem;
+    
+  
        
     }
 
     .media__links a{
         width: 33.3%;
-        text-align: center
+        text-align: center;
+
+
         
     }
 
