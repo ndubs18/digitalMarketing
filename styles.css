@@ -11,7 +11,8 @@ body {width: 100%;
 * { font-family: 'Slabo 27px', serif;}
 
 p { font-size: 1.25rem;
-    color: rgba(0, 0, 0, .75)
+    color: #49494b;
+    font-weight: bolder
 }
 
 h1 {
@@ -28,7 +29,7 @@ h3 {
 
 .navbaR {height: 2.5rem;
     width: 100%;
-    background: rgb(51, 45, 34);
+    background: #bd8c7d;
 }
 
 .navbaR ul {width: 100%;
@@ -59,6 +60,7 @@ h3 {
     color: white;
     text-decoration: none;
     animation: fadeIn 3s forwards;
+    font-size: 1.25rem
 
 }
 
@@ -66,6 +68,10 @@ h3 {
     color: rgba(179, 179, 179, 0.363);
     text-decoration: none;
 
+}
+
+.navBar a:active {
+    color: white;
 }
 
 
@@ -88,7 +94,7 @@ h3 {
   
   .box__design button:hover{ 
     background: darkgray;
-    color:rgba(29, 17, 0, 0.664);
+    color:#e4f1fe;
 
 
   }
@@ -104,7 +110,7 @@ h3 {
     right:0;
     height:2px;
     width:0;
-    background: rgba(29, 17, 0, 0.664);
+    background: #e4f1fe;
     transition:400ms ease all;
   }
   .box__design button:after{
@@ -150,7 +156,7 @@ h3 {
 .img__one {
     width: 35%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("images/business2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("images/building.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     animation: fadeIn 2s forwards;
@@ -165,7 +171,7 @@ h3 {
 
 }
 
-.box__one {background-color:rgba(10, 89, 92, 0.288);
+.box__one {background-color: #8e8e90;
     width: 100%;
     height:100%;
     clip-path: polygon(50% 0%, 100% 0, 100% 50%, 50% 50%, 50% 100%, 0 100%, 0 0);
@@ -174,7 +180,7 @@ h3 {
 
 }
 
-.box__two {background-color: rgba(167, 161, 161, 0.527);
+.box__two {background-color: #49494b ;
     width:50.5%;
     height: 51%;
     position: absolute;
@@ -189,6 +195,7 @@ h3 {
     width: 25rem;
     position: absolute;
     animation: fadeIn 2s forwards;
+    color: #d1bfa7
 }
 
 
@@ -208,19 +215,27 @@ h3 {
 .container__two .media__links {
     display:flex;
     flex-direction: row;
-    width:35%;
+    width: 34.775%;
     justify-content: space-around;
     background:rgba(0, 0, 0, 0.048);
-    padding-top: 13px;
+    padding-top: 3px;
+    align-items: center;
 }
 
 .container__two .media__links a {
-    color: black;
-    animation: fadeIn 2s forwards;
-  
-
-    
+    color: #bd8c7d;
+    animation: fadeIn 2s forwards;    
 }
+
+.media__links a:hover {
+    transform: scale(1.1)
+}
+
+.media__links a i {
+    height: 10px;
+    width: 20px;
+}
+
 .container__two .media__links p {
     width: 5rem;
     height: 1.25rem;
@@ -257,6 +272,9 @@ h3 {
 
 .container__two h4 {font-size: 2rem;
     line-height: 48px;
+    color: #d1bfa7;
+    font-weight: 700;
+
 }
 
 .container__two .img__two {
@@ -273,7 +291,7 @@ h3 {
     position: absolute;
     height: 425px;
     width: 350px;
-    background: rgba(29, 17, 0, 0.664);
+    background: #8e8e90;
     transform: translateX(-1.25rem) translateY(-1.25rem);
     z-index: -1;
     animation: fadeIn 2s forwards;
@@ -367,9 +385,10 @@ h3 {
   .container__three .cards {
       height: 400px;
       width: 300px;
-      background: white;
+      background: #49494b;
       margin: 1rem 1.5rem;
       box-shadow: 1px 1px darkgray;
+      color: #8e8e90
       
   }
 
@@ -388,7 +407,17 @@ h3 {
       padding: 1rem;
       text-align: center;
       font-size: 1.15rem;
+   
 
+  }
+
+  .cards__text h3 {
+    color: #d1bfa7
+  }
+
+  .cards__text p {
+      color: lightgray;
+    /* color:#bd8c7d */
   }
 
 
@@ -396,7 +425,8 @@ h3 {
   .container__four {
       height: 40rem;
       width: 100%;
-      padding: 1rem 1rem
+      padding: 1rem 1rem;
+  
     
 
   }
@@ -418,7 +448,7 @@ h3 {
     width: 550px;
     position: relative;
     right: -4rem;
-    z-index: -1
+    z-index: 0
 
     
 }
@@ -427,11 +457,20 @@ h3 {
       float: right;
       height: 22rem;
       width:40rem;
-      background: rgb(235, 235, 235);
+      background: #f7e9d8;
       text-align:center;
       padding: 6rem 1rem 0rem;
-      box-shadow: 2px 2px 4px rgb(143, 143, 143)
+      box-shadow: 2px 2px 4px rgb(143, 143, 143);
+      z-index: 1;
     
+  }
+
+  .contactUs p {
+      color: #bd8c7d
+  }
+
+  .contactUs h2 {
+      color: #49494b
   }
   .contactUs button {
     background:grey;
@@ -462,7 +501,7 @@ h3 {
     height: auto;
     width: 100%;
     padding: 0rem .5rem;
-    background: rgb(51, 45, 34);
+    background: #bd8c7d;
 
 
 }
@@ -649,7 +688,7 @@ footer p {color:white;
     }
 
     .img__one {
-        background: rgba(10, 89, 92, 0.288);
+        background: #3a539b;
         display: none;
 
     }
