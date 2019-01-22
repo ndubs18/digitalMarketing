@@ -154,7 +154,7 @@ h3 {
 }
 
 .img__one {
-    width: 35%;
+    width: 60%;
     height: 100%;
     background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("images/building.jpg");
     background-size: 100% 100%;
@@ -166,7 +166,7 @@ h3 {
 
 
 .box__design {position: relative;
-    width: 65%;
+    width: 100%;
     animation: fadeIn 3s forwards;
 
 
@@ -204,8 +204,6 @@ h3 {
     font-size: 2.5rem;
 }
 
-
-
 .container__two{
     height: 40rem;
     width:100%;
@@ -216,11 +214,11 @@ h3 {
 .container__two .media__links {
     display:flex;
     flex-direction: row;
-    width: 35%;
+    width: 37.5%;
     justify-content: space-around;
     background:rgba(0, 0, 0, 0.048);
     padding-top: 3px;
-    padding-left: 12px;
+    padding-left: .9rem;
     align-items: center;
 }
 
@@ -689,10 +687,6 @@ footer p {color:white;
 
     .contactUs p {
         margin-bottom: 2rem;
-    }
-
-    .img__one {
-        background-size: 100% 75%;
     }
     
 }
