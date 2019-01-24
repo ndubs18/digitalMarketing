@@ -76,7 +76,7 @@ h3 {
 
 
 .box__design button {
-    background:grey;
+    background:#49494b;
     color:grey;
     border:none;
     position:relative;
@@ -268,13 +268,12 @@ h3 {
     padding: 1rem;
     margin-right:10rem;
  
-    
 }
 
 .container__two h4 {font-size: 2rem;
     line-height: 48px;
     color: #d1bfa7;
-    font-weight: 700;
+    font-weight: 600;
 
 }
 
@@ -312,7 +311,7 @@ h3 {
 }
 
 .meet {
-    background:grey;
+    background:#49494b;
     color: white;
     border:none;
     position:relative;
@@ -373,7 +372,7 @@ h3 {
   .container__three {
       height: 60vh;
       width: 100%;
-      background:rgb(235, 235, 235);
+      background:#bd8c7d;;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -388,8 +387,7 @@ h3 {
       width: 300px;
       background: #49494b;
       margin: 1rem 1.5rem;
-      box-shadow: 1px 1px darkgray;
-      color: #8e8e90
+      box-shadow: 1px 1px darkgray
       
   }
 
@@ -417,7 +415,7 @@ h3 {
   }
 
   .cards__text p {
-      color: lightgray;
+      color: rgb(228, 228, 228)
     /* color:#bd8c7d */
   }
 
@@ -474,8 +472,8 @@ h3 {
       color: #49494b
   }
   .contactUs button {
-    background:grey;
-    color:grey;
+    background:#49494b;
+    color:#49494b;
     border:none;
     position:relative;
     height:60px;
@@ -502,7 +500,7 @@ h3 {
     height: auto;
     width: 100%;
     padding: 0rem .5rem;
-    background: #bd8c7d;
+    background: #49494b;
 
 
 }
@@ -782,12 +780,7 @@ footer p {color:white;
         
     }
 
-    .meet{
-        font-size: 1rem;
-        line-height: 1rem;
-        height: 2.75rem;
-        padding: 0 .5rem
-    }
+
 
 
     .background__box {
