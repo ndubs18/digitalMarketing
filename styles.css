@@ -323,8 +323,6 @@ h3 {
     outline:none;
     border-radius: 3%;
     top: .9rem;
-    
-
   }
   .meet:hover{ 
     background: darkgray;
@@ -685,6 +683,12 @@ footer p {color:white;
 
     .contactUs p {
         margin-bottom: 2rem;
+    }
+
+    .meet {
+        padding: 1rem 1.05rem;
+        line-height: 1.2rem;
+        font-size: 1.25rem;
     }
     
 }
